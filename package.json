@@ -1,7 +1,12 @@
 {
   "name": "vscode-1986-theme",
-  "displayName": "vscode-1986-theme",
-  "description": "",
+  "publisher": "bcanzanella",
+  "author": {
+    "name": "bcanzanella"
+  },
+  "displayName": "1986",
+  "icon": "images/icon.png",
+  "description": "Retro colors. Future coding.",
   "repository": {
     "type": "git",
     "url": "https://github.com/bcanzanella/vscode-1986-theme"

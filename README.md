@@ -1,4 +1,6 @@
-# vscode-1986-theme
+## dev
 
+```
 npm install --save-dev vsce
 npx vsce package
+```
