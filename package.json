@@ -1,0 +1,28 @@
+{
+  "name": "vscode-1986-theme",
+  "displayName": "vscode-1986-theme",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcanzanella/vscode-1986-theme"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "1986",
+        "uiTheme": "vs-dark",
+        "path": "./themes/1986-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
