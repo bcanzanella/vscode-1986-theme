@@ -24,6 +24,11 @@
         "label": "1986",
         "uiTheme": "vs-dark",
         "path": "./themes/1986-color-theme.json"
+      },
+      {
+        "label": "1986 - Muted",
+        "uiTheme": "vs-dark",
+        "path": "./themes/1986-muted-color-theme.json"
       }
     ]
   },
