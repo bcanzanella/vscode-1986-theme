@@ -29,14 +29,22 @@ A retro-inspired **VS Code theme** bringing the neon aesthetics of the **1980s**
 ![Screenshot](./images/screenshot-dark-muted.png)
 
 `1986 - Light`
+
 ![Screenshot](./images/screenshot-light.png)
 
 ## Development
 
-If you want to modify or package this theme yourself:
+If you want to modify this theme yourself:
 
 ```sh
 npm install
+```
+
+Run the `Extension` task
+
+### Package
+
+```sh
 npm run package
 ```
 
