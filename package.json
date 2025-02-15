@@ -21,18 +21,26 @@
   "contributes": {
     "themes": [
       {
-        "label": "1986",
-        "uiTheme": "vs-dark",
-        "path": "./themes/1986-color-theme.json"
+        "label": "1986 - Light",
+        "uiTheme": "vs",
+        "path": "./themes/1986-light-color-theme.json"
       },
       {
-        "label": "1986 - Muted",
+        "label": "1986 - Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/1986-muted-color-theme.json"
+        "path": "./themes/1986-dark-color-theme.json"
+      },
+      {
+        "label": "1986 - Dark (Muted)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/1986-dark-muted-color-theme.json"
       }
     ]
   },
   "devDependencies": {
     "vsce": "^2.15.0"
+  },
+  "scripts": {
+    "package": "vsce package"
   }
 }
