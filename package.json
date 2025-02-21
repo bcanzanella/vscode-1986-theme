@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/bcanzanella/vscode-1986-theme"
   },
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.97.0"
   },
