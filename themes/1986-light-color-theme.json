@@ -2,13 +2,13 @@
   "name": "vscode-1986-light-theme",
   "colors": {
     "activityBar.background": "#f6f7fb",
-    "activityBar.foreground": "#FF16B0",
+    "activityBar.foreground": "#19a5f0",
     "activityBarBadge.background": "#FF16B0",
     "activityBarBadge.foreground": "#fcfcfc",
     "badge.background": "#FF16B0",
     "badge.foreground": "#fcfcfc",
     "breadcrumbPicker.background": "#e6e9f0",
-    "button.background": "#46BDFF",
+    "button.background": "#2c9fdd",
     "button.foreground": "#000000",
     "button.hoverBackground": "#00a6ff",
     "debugToolBar.background": "#dbe3f0",
@@ -26,7 +26,7 @@
     "editorGroupHeader.tabsBackground": "#f6f7fb",
     "editorHoverWidget.background": "#e6e9f0",
     "editorHoverWidget.border": "#cbd2e1",
-    "editorIndentGuide.activeBackground1": "#46BDFF",
+    "editorIndentGuide.activeBackground1": "#2c9fdd",
     "editorIndentGuide.background1": "#b0c4de",
     "editorLineNumber.foreground": "#7b7f86",
     "editorOverviewRuler.border": "#cbd2e1",
@@ -40,24 +40,24 @@
     "errorForeground": "#FF16B0",
     "extensionButton.prominentBackground": "#FF16B0",
     "extensionButton.prominentHoverBackground": "#ff16b196",
-    "focusBorder": "#46BDFF",
-    "gitDecoration.addedResourceForeground": "#46BDFF",
+    "focusBorder": "#2c9fdd",
+    "gitDecoration.addedResourceForeground": "#2c9fdd",
     "gitDecoration.deletedResourceForeground": "#FF16B0",
     "gitDecoration.ignoredResourceForeground": "#7b7f86",
-    "gitDecoration.modifiedResourceForeground": "#fcee54",
-    "gitDecoration.untrackedResourceForeground": "#B3F361",
+    "gitDecoration.modifiedResourceForeground": "#fca054",
+    "gitDecoration.untrackedResourceForeground": "#8bd42c",
     "input.background": "#ffffff",
     "input.border": "#cbd2e1",
     "input.foreground": "#222222",
-    "list.activeSelectionBackground": "#ccd6e4",
-    "list.activeSelectionForeground": "#222222",
+    "list.activeSelectionBackground": "#2c9fdd",
+    "list.activeSelectionForeground": "#ffffff",
     "list.focusBackground": "#ccd6e4",
-    "list.highlightForeground": "#D7DAE0",
+    "list.highlightForeground": "#FF16B0",
     "list.hoverBackground": "#ccd6e4",
     "list.inactiveSelectionBackground": "#fdd4f0",
     "list.inactiveSelectionForeground": "#333",
     "pickerGroup.border": "#FF16B0",
-    "progressBar.background": "#46BDFF",
+    "progressBar.background": "#2c9fdd",
     "scrollbar.shadow": "#cbd2e1",
     "scrollbarSlider.activeBackground": "#747D9180",
     "scrollbarSlider.background": "#bfc7d5",
@@ -93,7 +93,7 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#525863",
+        "foreground": "#8f939b",
         "fontStyle": "italic"
       }
     },
@@ -105,35 +105,35 @@
         "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#DF81FC"
+        "foreground": "#bd6dd9"
       }
     },
     {
       "name": "Punctuation within templates",
       "scope": "string.template meta.embedded.line",
       "settings": {
-        "foreground": "#46BDFF"
+        "foreground": "#2c9fdd"
       }
     },
     {
       "name": "Variable",
       "scope": ["variable", "entity.name.variable"],
       "settings": {
-        "foreground": "#96A1FF"
+        "foreground": "#838de9"
       }
     },
     {
       "name": "Language variable",
       "scope": ["variable.language", "variable.other.object.js"],
       "settings": {
-        "foreground": "#46BDFF"
+        "foreground": "#2c9fdd"
       }
     },
     {
       "name": "Parameter",
       "scope": "variable.parameter",
       "settings": {
-        "foreground": "#96A1FF"
+        "foreground": "#838de9"
       }
     },
     {
@@ -147,14 +147,14 @@
       "name": "Constant",
       "scope": "constant",
       "settings": {
-        "foreground": "#96A1FF"
+        "foreground": "#838de9"
       }
     },
     {
       "name": "Regex",
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#96A1FF"
+        "foreground": "#838de9"
       }
     },
     {
@@ -165,7 +165,7 @@
         "text.html.derivative"
       ],
       "settings": {
-        "foreground": "#46BDFF"
+        "foreground": "#2c9fdd"
       }
     },
     {
@@ -179,7 +179,7 @@
       "name": "Language constant (boolean, null)",
       "scope": "constant.language",
       "settings": {
-        "foreground": "#96A1FF"
+        "foreground": "#838de9"
       }
     },
     {
@@ -193,49 +193,49 @@
       "name": "Entity",
       "scope": "entity.name",
       "settings": {
-        "foreground": "#46BDFF"
+        "foreground": "#2c9fdd"
       }
     },
     {
       "name": "HTML or XML tag",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#46BDFF"
+        "foreground": "#2c9fdd"
       }
     },
     {
       "name": "HTML or XML tag brackets",
       "scope": ["punctuation.definition.tag"],
       "settings": {
-        "foreground": "#46BDFF"
+        "foreground": "#2c9fdd"
       }
     },
     {
       "name": "Tag atttribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#96A1FF"
+        "foreground": "#838de9"
       }
     },
     {
       "name": "Class",
       "scope": "entity.name.type",
       "settings": {
-        "foreground": "#46BDFF"
+        "foreground": "#2c9fdd"
       }
     },
     {
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "#46BDFF"
+        "foreground": "#2c9fdd"
       }
     },
     {
       "name": "Function",
       "scope": ["entity.name.function", "variable.function"],
       "settings": {
-        "foreground": "#46BDFF"
+        "foreground": "#2c9fdd"
       }
     },
     {
@@ -274,35 +274,35 @@
       "name": "Unit",
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#96A1FF"
+        "foreground": "#838de9"
       }
     },
     {
       "name": "Support",
       "scope": "support",
       "settings": {
-        "foreground": "#46BDFF"
+        "foreground": "#2c9fdd"
       }
     },
     {
       "name": "Support function",
       "scope": "support.function",
       "settings": {
-        "foreground": "#46BDFF"
+        "foreground": "#2c9fdd"
       }
     },
     {
       "name": "Support variable",
       "scope": "support.variable",
       "settings": {
-        "foreground": "#96A1FF"
+        "foreground": "#838de9"
       }
     },
     {
       "name": "Object literal key / property",
       "scope": ["meta.object-literal.key", "support.type.property-name"],
       "settings": {
-        "foreground": "#46BDFF"
+        "foreground": "#2c9fdd"
       }
     },
     {
@@ -365,7 +365,7 @@
       "name": "Font names",
       "scope": "support.constant.font-name",
       "settings": {
-        "foreground": "#96A1FF"
+        "foreground": "#838de9"
       }
     },
     {
@@ -396,7 +396,7 @@
       "name": "Markup heading",
       "scope": ["markup.heading", "entity.name.section"],
       "settings": {
-        "foreground": "#96A1FF"
+        "foreground": "#838de9"
       }
     },
     {
@@ -410,7 +410,7 @@
       "name": "Markup list",
       "scope": "beginning.punctuation.definition.list",
       "settings": {
-        "foreground": "#96A1FF"
+        "foreground": "#838de9"
       }
     },
     {
@@ -424,14 +424,14 @@
       "name": "Markup link description",
       "scope": "string.other.link.description",
       "settings": {
-        "foreground": "#96A1FF"
+        "foreground": "#838de9"
       }
     },
     {
       "name": "Python function call",
       "scope": "meta.function-call.generic.python",
       "settings": {
-        "foreground": "#46BDFF"
+        "foreground": "#2c9fdd"
       }
     },
     {
@@ -445,7 +445,7 @@
       "name": "C# local variable",
       "scope": "entity.name.variable.local.cs",
       "settings": {
-        "foreground": "#96A1FF"
+        "foreground": "#838de9"
       }
     },
     {
@@ -455,7 +455,7 @@
         "entity.name.variable.property.cs"
       ],
       "settings": {
-        "foreground": "#96A1FF"
+        "foreground": "#838de9"
       }
     },
     {
