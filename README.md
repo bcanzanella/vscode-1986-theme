@@ -13,12 +13,10 @@ A retro-inspired **VS Code theme** bringing the neon aesthetics of the **1980s**
 
 ## Installation
 
-1. Open **VS Code**
-2. Go to **Extensions** (`Cmd + Shift + X` or `Ctrl + Shift + X`)
-3. Search for **1986**
-4. Click **Install**
-5. Open Command Palette (`Cmd + Shift + P` or `Ctrl + Shift + P`) and select **Preferences: Color Theme**
-6. Choose **1986 - Dark**
+1. Download VSIX from releases
+1. Open Extensions and choose "Install from VSIX..."
+1. Open Command Palette (`Cmd + Shift + P` or `Ctrl + Shift + P`) and select **Preferences: Color Theme**
+1. Choose **1986 - Dark**
 
 `1986 - Dark`
 
